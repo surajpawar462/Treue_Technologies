@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/practice.css">
+      <title>Home page</title>
+      <script src="jquery-3.6.3.js"></script>
+      <script src="java.js"></script>
+    
+      
+</head>
+<body class="body">
+      <header class="header">
+            <div class="header">
+            <div class="logo"><img src="images/jcb.png" alt="not found"></div>
+            <h2 class="head"><a href="home.html">Shree Durga Industries</a></h2>
+            </div>
+
+            <nav class="navbar background">
+                  <ul class="nav-list">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="signin.html">Sign in</a></li>
+                  </ul>
+            </nav>
+      </header>
+
+      <main>
+            <div class="slide">
+              <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="img1" src="images/hydraulic press.jpg">
+                <div class="text">Hydraulic Press</div>
+              </div>
+
+              <div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img class="img1" src="images/grass_cutting_img.jpg">
+                  <div class="text">Grass Cutting M/C</div>
+              </div>
+              
+              <div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img class="img1" src="images/pump.webp">
+                  <div class="text">Hydraulic Pump</div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">⟨</a>
+              <a class="next" onclick="plusSlides(1)">⟩</a>
+
+            </div>
+            <br>
+
+            <div style="text-align: center;">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <script>
+              let slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+              }
+              </script>
+            </div>
+
+
+            <div class="product">
+                  <h2>Products</h2>
+                  <p class="para">we are the best service providers and hydraulic manufactures in town, also we do alteration of hydraulic parts and machinery according to customer needs.</p>
+                  <div class="prod-img">
+                        <div class="cylinder"><a href="form.html"><img src="images/cylinder.jpeg" alt="not found" height="300px" width="300px"><h3>Hydraulic Cylinder</h3></a></div>
+                        <div class="press"><a href="form.html"><img src="images/press.jpg" alt="not found" height="300px" width="300px"><h3>Hydraulic Press</h3></a></div>
+                        <div class="pump"><a href="form.html"><img src="images/pump.webp" alt="not found" height="300px" width="300px"><h3>Hydraulic Pump</h3></a></div>
+                  </div>
+            </div>
+            <div class="services">
+                  <h2>Services</h2>
+                  <summary class="summary">We offer AMC (Annual Maintenance Contract) and CMC (Comprehensive Maintenance Contract)</summary>
+                  <div class="service-img">
+                        <div class="AMC">
+                              <a href="service-form.html"><img src="images/AMC.jpeg" alt="not found" height="300px" width="300px"><h3>AMC</h3><summary>Rs.1000/year</summary></a>
+                                 
+                        </div>
+                        <div class="CMC">
+                              <a href="service-form.html"><img src="images/CMC.jpeg" alt="not found" height="300px" width="300px"><h3>CMC</h3><summary>Rs.400/visit</summary></a>
+                        </div>
+                  </div>
+            </div>
+      </main>
+
+      <footer class="con">
+        <table class="contact">
+              <tr align="center">
+                    <th style="width: 30%;">
+                    <h3>Company Address:</h3>
+                    </th>
+                    <th style="width: 30%;">
+                    <h3>Contact:</h3>
+                    </th>
+              </tr>
+              <tr align="center">
+                    <td><address>
+                          <h4> <a href="https://goo.gl/maps/cZQ3Rj3CVn******">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, aut.,<br>
+                                Maharashtra</a></h4>
+                    </address></td>
+                    <td><address>
+                          <h4>Phone no: <a href="tel:+911234567890">1234567890</a> / <a href="tel:+911234567890">1234567890</a> <br>
+                                Email: <a href="mailto:Durgaind@gmail.com">Durgaind@gmail.com</a></h4>
+                    </address></td>
+              </tr>
+        </table>
+  </footer>
+</body>
+</html>

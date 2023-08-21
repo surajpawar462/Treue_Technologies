@@ -1,0 +1,273 @@
+
+.background{
+                    background: orange;
+                    margin-top: 0%;
+              }
+              .body{
+                    margin: 0px 0px 0px 0px;
+                    background: rgba(0, 0, 0, 0.7);
+                    background-size: cover;
+                    background-blend-mode: darken;
+              
+              }
+              .body-form{
+                    margin: 0px 0px 0px 0px;
+                    background: rgba(95, 93, 93, 0.7) url(images/pokeland.jpg);
+                    background-size: cover;
+                    background-blend-mode: darken;
+              
+              }
+              .header{
+                    justify-content: left;
+                    display: flex;
+                    height: 80px;
+                    width: 100%;
+                    align-items:center;
+                    font-size:20px;
+                    font-style: italic;
+                    background-color: orange;
+              }
+              .logo
+              {
+                    display: flex;
+                    height: 70px;
+                    width: 30px;
+                    padding: 0px 20px;
+              
+              }
+              .logo img{
+                    border: 3px solid black;
+                    border-radius: 35px;
+                    margin-left: 0px;
+                    background-color: yellow;
+              }
+              .head{
+                    width: 50%;
+                    margin-left: 50px;
+              }
+              
+              .navbar{
+              justify-content: right;
+              width: 50%;
+              display: flex;
+              align-items: center;
+              position: sticky;
+              top: 0%;
+              cursor: pointer;
+              margin-top: 0px;
+              font-size: 20px;
+              height: 80px;
+              }
+              .nav-list{
+                    width: fit-content;
+                    display:flex;
+                    align-items: center;
+              }
+              .nav-list li{
+                    list-style: none;
+                    padding: 26px 20px;
+                    font-size: 20px;
+              }
+              .nav-list li a{
+                    text-decoration: none;
+                    color: blue;
+              }
+              .nav-list li a:hover{
+                    color: red;
+              }
+              .text-big{
+                    font-size: 41px;
+              }
+              .text-small{
+                    font-size: 18px;
+              }
+              .slideshow-container{
+                    width: 100%;
+                    height: 500px;
+              }
+              .img1{
+                    width: 60%;
+                    height: 700px;
+                    margin-left: 20%;
+                    margin-top: 2% ;
+              }
+              .video{
+                    width: 80%;
+                    height: 600px;
+                    margin-left: 10%;
+                    margin-top: 2% ;
+              }
+              .product{
+                    background-color: yellow;
+                    margin-top: 100px;
+                    height: 600px;
+              }
+              .product-2{
+                    background-color: yellow;
+                    margin-top: 10px;
+                    height: 600px;
+              }
+              .product h2{
+                    display: flex;
+                    justify-content: center;
+              }
+              .product-2 h2{
+                    display: flex;
+                    justify-content: center;
+              }
+              .para{
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+              }
+              .prod-img{
+                    margin-top: 100px;
+                    display: flex;
+              }
+              .cylinder{
+                    background-color: white;
+                    border-color: gray;
+                    text-align: center;
+                    margin-left: 10%;
+                    border-style: solid;
+                    border-width: 8px;
+                    border-radius: 20px 10px;
+                    box-shadow: 8px 8px 3px 3px black;
+              }
+              .press{
+                    background-color: white;
+                    border-color: gray;
+                    text-align: center;
+                    margin-left: 10%;
+                    border-style: solid;
+                    border-width: 8px;
+                    border-radius: 20px 10px;
+                    box-shadow: 8px 8px 3px 3px black;
+              }
+              
+              .pump{
+                    background-color: white;
+                    border-color: gray;
+                    text-align: center;
+                    margin-left: 10%;
+                    border-style: solid;
+                    border-width: 8px;
+                    border-radius: 20px 10px;
+                    box-shadow: 8px 8px 3px 3px black;
+              }
+              .services{
+                    background-color: orange;
+                    width: 100%;
+                    height: 650px;
+              }
+              .services h2{
+                    display: flex;
+                    justify-content: center;
+              }
+              .summary{
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+              }
+              .service-img{
+                    margin-top: 100px;
+                    display: flex;
+                    justify-content: space-evenly;
+              }
+              .AMC{
+                    background-color: white;
+                    border-color: gray;
+                    text-align: center;
+                    margin-left: 10%;
+                    border-style: solid;
+                    border-width: 8px;
+                    border-radius: 20px 10px;
+                    box-shadow: 8px 8px 3px 3px black;
+              }
+              .CMC{
+                    background-color: white;
+                    border-color: gray;
+                    text-align: center;
+                    margin-left: 10%;
+                    border-style: solid;
+                    border-width: 8px;
+                    border-radius: 20px 10px;
+                    box-shadow: 8px 8px 3px 3px black;
+              }
+              .contact th{
+                    
+                    color: white;
+                    font-size: large;
+              }
+              .contact td{
+                    color: white;
+              }
+              .con{
+                    width: 60%;
+                    background-color: grey;
+                    margin-left: 20%;
+                    margin-top: 1800px;
+              
+              }
+              .table{
+                    font-style: normal;
+              }
+              .tbody{
+                    font-style: normal;
+              }
+              
+              
+              
+              .map{
+                    margin-top: 2%;
+                    margin-left: 25%;
+                    width: 50%;   
+              }
+              .form{
+                  justify-content: center;
+                    background-color: aliceblue;
+                    display: flex;
+                    
+              
+              }
+              
+
+              /* slideshow */
+              .mySlides{
+                  display: none;
+              }
+
+              .img {vertical-align: middle;}
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
